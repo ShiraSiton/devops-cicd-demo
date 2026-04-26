@@ -3,7 +3,7 @@ const app = express();
 
 // פונקציה פשוטה שנוכל לבדוק בטסטים
 function add(a, b) {
-    return 2;
+    return a + b;
 }
 
 app.get('/', (req, res) => {
